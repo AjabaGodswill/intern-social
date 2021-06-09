@@ -207,6 +207,8 @@ a > .fa{
     width: 100%;
 }
 button{
+    border-radius: 1em;
+    outline: transparent;
     border: none;
     background: #d3d4d6;
     padding: 10px;
