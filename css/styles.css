@@ -13,6 +13,8 @@ nav{
     justify-content: space-between;
     background: #fff;
     box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
 }
 /* .child{
 } */
@@ -140,19 +142,20 @@ nav{
 /* navigation ends */
 
 /* main body styling */
+section{
+    padding-top: 50px;
+}
 #wrapper{
     display: flex;
-    border: 2px solid;
     justify-content: space-between;
     height: 100vh;
-    overflow: none;
+    /* overflow:hidden; */
     /* padding: 15px; */
 }
 
 /* wrapper left starts */
 .wrapper-left{
     flex: 3;
-    border: 2px solid red;
     height: 100%;
     width: 100%;
     overflow-y: scroll;
@@ -231,10 +234,9 @@ button:hover{
 /* wrapper center starts */
 .wrapper-center{
     flex: 6;
-    border: 2px solid blue;
     height: 100%;
     width: 100%;
-    overflow-y: scroll;
+    overflow-y: scroll ;
     overflow-x: hidden;
     padding-top: 20px;
 }
@@ -243,7 +245,6 @@ button:hover{
 /* wrapper right starts */
 .wrapper-right{
     flex: 3;
-    border: 2px solid yellowgreen;
     height: 100%;
     width: 100%;
     overflow-y: scroll;
